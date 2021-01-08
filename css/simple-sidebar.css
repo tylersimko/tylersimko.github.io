@@ -7,7 +7,7 @@
  body {
     overflow-x: hidden;
     background-color: #0d1019;
-    color: #b7b7b7;
+    color: #f1f1f1;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
  }
@@ -17,7 +17,12 @@ a:link {
 }
 
 a:visited, a:hover {
-    color: #3b7d75
+    color: #34c7b5
+}
+
+.smallcaps {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 120%;
 }
 
 .figure a {
