@@ -16,6 +16,8 @@ a:link {
     color: #34c7b5;
 }
 
+.onespace {line-height: 0.7em;}
+
 a:visited, a:hover {
     color: #34c7b5
 }
