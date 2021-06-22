@@ -27,6 +27,16 @@ a:visited, a:hover {
     font-size: 120%;
 }
 
+.smallcaps-big {
+   font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 200%; 
+}
+
+.smallcaps-mid {
+   font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 150%; 
+}
+
 .figure a {
     text-decoration: none;
 }
