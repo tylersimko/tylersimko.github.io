@@ -12,6 +12,11 @@
     font-family: 'Roboto', sans-serif;
  }
 
+ details > summary {
+  cursor: pointer;
+}
+
+
 a:link {
     color: #34c7b5;
 }
