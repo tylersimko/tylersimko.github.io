@@ -16,20 +16,29 @@
   cursor: pointer;
 }
 
+.journal {
+    color: #DA7635;
+    font-face: bold;
+}
 
+/* #34c7b5 */
 a:link {
-    color: #34c7b5;
+    color: #DA7635;
 }
 
 .onespace {line-height: 0.7em;}
 
 a:visited, a:hover {
-    color: #34c7b5
+    color: #E39764;
 }
 
 .smallcaps {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 120%;
+}
+
+.paper-title {
+    font-face: bold;
 }
 
 .smallcaps-big {
