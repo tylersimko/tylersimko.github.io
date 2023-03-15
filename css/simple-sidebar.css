@@ -8,7 +8,7 @@
     overflow-x: hidden;
     background-color: #0d1019;
     color: #f1f1f1;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
  }
 
@@ -20,6 +20,13 @@
     color: #DA7635;
     font-face: bold;
 }
+
+/* span {
+    font-face: bold;
+    text-decoration: underline #DA7635;
+  }
+
+  */
 
 /* #34c7b5 */
 a:link {
