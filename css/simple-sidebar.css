@@ -4,17 +4,17 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
- body {
+body {
     overflow-x: hidden;
     background-color: #0d1019;
     color: #f1f1f1;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 30px;
- }
+}
 
- details > summary {
-  cursor: pointer;
+details>summary {
+    cursor: pointer;
 }
 
 .journal {
@@ -34,9 +34,16 @@ a:link {
     color: #DA7635;
 }
 
-.onespace {line-height: 0.7em;}
+.desc summary {
+    color: #DA7635;
+}
 
-a:visited, a:hover {
+.onespace {
+    line-height: 0.7em;
+}
+
+a:visited,
+a:hover {
     color: #E39764;
 }
 
@@ -50,10 +57,10 @@ button {
 }
 
 div #newsbox {
-  border: 2px dotted white;
-  box-sizing: border-box;
-  padding: 4px;
-  margin-top: 10px;
+    border: 2px dotted white;
+    box-sizing: border-box;
+    padding: 4px;
+    margin-top: 10px;
 }
 
 .smallcaps {
@@ -66,13 +73,13 @@ div #newsbox {
 }
 
 .smallcaps-big {
-   font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 200%; 
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 200%;
 }
 
 .smallcaps-mid {
-   font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 150%; 
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 150%;
 }
 
 .figure a {
@@ -156,7 +163,7 @@ div #newsbox {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-nav li a:active,
@@ -164,17 +171,17 @@ div #newsbox {
     text-decoration: none;
 }
 
-.sidebar-nav > .sidebar-brand {
+.sidebar-nav>.sidebar-brand {
     height: 65px;
     font-size: 18px;
     line-height: 60px;
 }
 
-.sidebar-nav > .sidebar-brand a {
+.sidebar-nav>.sidebar-brand a {
     color: #cccccc;
 }
 
-.sidebar-nav > .sidebar-brand a:hover {
+.sidebar-nav>.sidebar-brand a:hover {
     color: #fff;
     background: none;
 }
@@ -208,9 +215,39 @@ div #newsbox {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
+@media only screen and (min-width : 1224px) {
     /* Styles */
 
 }
-.button-35 { align-items: center; background-color: #DA7635; border-radius: 12px; box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px; box-sizing: border-box; color: #0d1019; cursor: pointer; display: inline-flex; flex: 1 1 auto; font-family: Inter,sans-serif; font-size: 1.2rem; font-weight: 700; justify-content: center; line-height: 1; margin: 0; outline: none; padding: 1rem 1.2rem; text-align: center; text-decoration: none; transition: box-shadow .2s,-webkit-box-shadow .2s; white-space: nowrap; border: 0; user-select: none; -webkit-user-select: none; touch-action: manipulation; } .button-35:hover { box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0; }
+
+.button-35 {
+    align-items: center;
+    background-color: #DA7635;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #0d1019;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-35:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
