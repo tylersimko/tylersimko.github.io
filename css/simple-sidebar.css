@@ -13,6 +13,36 @@ body {
     padding-bottom: 30px;
 }
 
+.main-box {
+    background: #FAD5A5;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.main-box a:hover {
+    TEXT-DECORATION: underline;
+    color: black;
+}
+
+.main-box a:link {
+    TEXT-DECORATION: underline;
+    color: black;
+}
+
+.main-box a:active {
+    TEXT-DECORATION: underline;
+    color: black;
+}
+
+.main-box a:visited {
+    TEXT-DECORATION: underline;
+    color: black;
+}
+
 details>summary {
     cursor: pointer;
 }
@@ -31,6 +61,22 @@ details>summary {
 
 /* #34c7b5 */
 a:link {
+    /* color: #AE670A; */
+    color: #DA7635;
+}
+
+a:visited {
+    /* color: #AE670A; */
+    color: #DA7635;
+}
+
+a:hover {
+    /* color: #AE670A; */
+    color: #DA7635;
+}
+
+a:active {
+    /* color: #AE670A; */
     color: #DA7635;
 }
 
@@ -44,11 +90,12 @@ a:link {
 
 a:visited,
 a:hover {
-    color: #E39764;
+    TEXT-DECORATION: underline;
+    color: DA7635;
 }
 
 button {
-    background-color: #DA7635;
+    background-color: #62A8EE;
     padding: 4px;
     font: inherit;
     color: inherit;
@@ -59,6 +106,7 @@ button {
 div #newsbox {
     border: 2px dotted white;
     box-sizing: border-box;
+    border-radius: 6px;
     padding: 4px;
     margin-top: 10px;
 }
@@ -222,11 +270,11 @@ div #newsbox {
 
 .button-35 {
     align-items: center;
-    background-color: #DA7635;
+    background-color: #A2D6F9;
     border-radius: 12px;
     box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
     box-sizing: border-box;
-    color: #0d1019;
+    color: black;
     cursor: pointer;
     display: inline-flex;
     flex: 1 1 auto;
@@ -246,6 +294,22 @@ div #newsbox {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+}
+
+#newsbox a:link {
+    color: #A2D6F9;
+}
+
+#newsbox a:visited {
+    color: #A2D6F9;
+}
+
+#newsbox a:hover {
+    color: #A2D6F9;
+}
+
+#newsbox a:active {
+    color: #A2D6F9;
 }
 
 .button-35:hover {
